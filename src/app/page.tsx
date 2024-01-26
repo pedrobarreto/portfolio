@@ -1,8 +1,12 @@
+"use client"
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Header } from "@/components/header";
 import { CommandMenu } from "@/components/command-menu";
 import { Section } from "@/components/ui/section";
+import { useTheme } from "@/contexts/theme-context"
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
@@ -11,9 +15,13 @@ import { ProjectCard } from "@/components/project-card";
 
 export default function Page() {
 
+  const { darkMode } = useTheme()
+
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+    <body className={`${darkMode && 'dark'}`}>
+    <Header/>
+    <main className={`container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16`}>
+      <section className="mx-auto w-full max-w-2xl space-y-8 print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
@@ -181,7 +189,7 @@ export default function Page() {
         </Section>
       </section>      
 
-      <CommandMenu
+      {/* <CommandMenu
         links={[
           {
             url: RESUME_DATA.personalWebsiteUrl,
@@ -192,7 +200,8 @@ export default function Page() {
             title: socialMediaLink.name,
           })),
         ]}
-      />
+      /> */}
     </main>
+    </body>
   );
 }

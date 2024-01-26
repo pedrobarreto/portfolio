@@ -54,7 +54,7 @@ export const Header: FC = () => {
 
   return (
     <>
-      <header className="w-full bg-white flex justify-between items-center h-9 border-b z-50 sticky top-0 px-4 sm:px-0 md:px-0 lg:px-0">
+      <header className="w-full flex justify-between items-center h-9 border-b z-50 sticky top-0 px-4 sm:px-0 md:px-0 lg:px-0">
         <div className="w-full max-w-2xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
             {sections.map((section) => (

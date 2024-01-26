@@ -25,13 +25,10 @@ export default function RootLayout({
 }) {
   return (
    
-    <html lang="en" className={inter.className}>
-      <body>
+    <html lang="en" className={inter.className}>    
       <Providers>
-        <Header/>
         {children} 
       </Providers>
-      </body>
       <Analytics />
     </html>
   );
