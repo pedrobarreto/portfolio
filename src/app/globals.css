@@ -73,6 +73,9 @@
   body {
     @apply bg-background text-foreground;
   }
+    header {
+    @apply bg-background text-foreground;
+  }
 }
 
 .print-force-new-page {
