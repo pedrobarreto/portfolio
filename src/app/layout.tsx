@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
-import { Header } from "@/components/header"
+import { Roboto } from "next/font/google";
 import { RESUME_DATA } from "@/data/resume-data";
 import { Providers } from "@/providers";
 
@@ -13,9 +12,10 @@ export const metadata: Metadata = {
   description: RESUME_DATA.summary,
 };
 
-const inter = Inter({
+const roboto = Roboto({
   subsets: ["latin"],
   display: "swap",
+  weight: ["300", "700"]
 });
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
    
-    <html lang="en" className={inter.className}>    
+    <html lang="en" className={roboto.className}>    
       <Providers>
         {children} 
       </Providers>
