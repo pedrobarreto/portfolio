@@ -24,7 +24,7 @@ export const RESUME_DATA = {
   initials: "PB",
   location: "Rio de Janeiro, Brazil",
   locationLink: "Link da Localização",
-  about: "Passionate about technology since always, I firmly believe in the power of innovation to turn ideas into reality.",
+  about: "Passionate about technology, I believe in innovation's power to bring ideas to life.",
   summary: "As Co-founder of Pathisa, I led and coordinated a dynamic team, guiding them in developing and executing pioneering marketing campaigns in the fashion industry for 9 years. Embracing a lifelong learner mindset, in 2020, I decided to deepen my technology knowledge by becoming a Full Stack Developer at Trybe. \n This experience paved the way for me to join the Alloha Group, where I actively contributed to numerous microservices in Java with Spring Boot. Notable recent projects include serving as a tech lead at Alloha Fibra, spearheading initiatives in API standardization and React Native app development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8386806?v=4",
   personalWebsiteUrl: "URL do Website Pessoal",
@@ -48,14 +48,14 @@ export const RESUME_DATA = {
     {
       school: "Trybe",
       degree: "Associate's Degree, Full Stack Web Development",
-      start: "jun de 2020",
-      end: "mai de 2022",
+      start: "2020",
+      end: "2022",
     },
     {
       school: "PUC-Rio",
       degree: "Bacharelado em Publicidade e Marketing",
-      start: "jun de 2006",
-      end: "abr de 2011",
+      start: "2006",
+      end: "2011",
     },
  
   ],
