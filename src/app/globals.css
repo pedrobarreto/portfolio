@@ -76,6 +76,9 @@
     header {
     @apply bg-background text-foreground;
   }
+  .submenu {
+    @apply bg-background text-foreground;
+  }
 }
 
 .print-force-new-page {
