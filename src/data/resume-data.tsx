@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Rio de Janeiro, Brazil",
   locationLink: "Link da Localização",
   about: "Passionate about technology, I believe in innovation's power to bring ideas to life.",
-  summary: "As Co-founder of Pathisa, I led and coordinated a dynamic team, guiding them in developing and executing pioneering marketing campaigns in the fashion industry for 9 years. Embracing a lifelong learner mindset, in 2020, I decided to deepen my technology knowledge by becoming a Full Stack Developer at Trybe. \n This experience paved the way for me to join the Alloha Group, where I actively contributed to numerous microservices in Java with Spring Boot. Notable recent projects include serving as a tech lead at Alloha Fibra, spearheading initiatives in API standardization and React Native app development.",
+  summary: "For 9 years, I worked in fashion retail as Marketing Director at Pathisa, a pioneering brand in the Haute Couture market. Prioritizing a collaborative team approach,  we developed marketing campaigns that enhanced synergy between our customers, physical stores, and e-commerce platforms, aiming for an omnichannel experience. Embracing a lifelong learner mindset, in 2020, I decided to deepen my technology knowledge by becoming a Full Stack Developer at Trybe. \n This experience paved the way for me to join the Alloha Group, where I actively contributed to numerous microservices in Java with Spring Boot. Recent notable projects include my role as a tech lead at Alloha Fibra, where I led initiatives in API standardization and React Native app development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8386806?v=4",
   personalWebsiteUrl: "URL do Website Pessoal",
   contact: {
@@ -62,9 +62,9 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Alloha Fibra",
-      link: "Link da Empresa",
+      link: "https://alloha.com/",
       badges: ["Remote"],
-      title: "Full Stack Developer → Lead Java Developer",
+      title: "Lead Java Developer → Full Stack Developer",
       start: "2022",
       end: "2024",
       description: 
@@ -73,15 +73,15 @@ export const RESUME_DATA = {
     {
       company: "Pathisa",
       link: "https://www.instagram.com/pathisario/",
-      badges: ["Co-Founder"],
-      title: "Entrepreneur → Marketing Director",
+      badges: [],
+      title: "Marketing Director → Digital Marketing Manager",
       start: "2013",
       end: "2023",
       description: "• Led the marketing team to collaborate with sales teams across 4 physical stores, crafting impactful campaigns and sales initiatives for brand collections.\n • Sales growth strategies integrating physical stores, e-commerce, and consumers.\n• Development of the brand's first E-commerce on the Woocommerce platform.\n • Integration of physical stores ERP and synchronization of Inventory / Products / Orders. \n• Monitoring and creating CRM-integrated flows for the commercial team.\n• Inbound Marketing, SEO and definition of new strategies for acquiring B2C Leads.",
     },
     {
-      company: "Enter10! - Esporte & Entretenimento",
-      link: "Link da Empresa",
+      company: "Enter10!",
+      link: "https://vimeo.com/theglowproject",
       badges: [],
       title: "Digital Marketing Manager",
       start: "2011",
@@ -90,7 +90,7 @@ export const RESUME_DATA = {
     },
     {
       company: "PUC-Rio",
-      link: "Link da Empresa",
+      link: "https://www.puc-rio.br/index.html",
       badges: ["Intern"],
       title: "International Student Exchange Coordinator",
       start: "2008",
