@@ -47,13 +47,13 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Trybe",
-      degree: "Associate's Degree, Full Stack Web Development",
+      degree: "• 1-year Full Stack Web Development Program \n •  6-month Java Acceleration Program",
       start: "2020",
       end: "2022",
     },
     {
       school: "PUC-Rio",
-      degree: "Bacharelado em Publicidade e Marketing",
+      degree: "• Bachelor's Degree in Advertising and Marketing \n • Minor in Entrepreneurship",
       start: "2006",
       end: "2011",
     },
@@ -66,7 +66,7 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Full Stack Developer → Lead Java Developer",
       start: "2022",
-      end: "2023 · 1 year 6 months",
+      end: "2024",
       description: 
       `• As the technical lead, played a key role in API standardization at Alloha Group, developing an API proxy for seamless communication with the Five9 chatbot provider.\n • Contributed significantly to integrating a new white-label mobile application for all 9 brands within the Alloha Fibra group.\n • Played a pivotal role in strategic discussions for B2C E-commerce, leading the "Refer a Friend" project resulting in a 15% sales increase.\n • Initiated and oversaw the API documentation process for seamless integration and partnership synergy.\n • Contributed to frontend development using Vue.js, enhancing user experiences and interface functionalities.\n • Developed and maintained new functionalities in Rest APIs using Java with Spring for robust backend solutions.`
     },
@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       badges: ["Co-Founder"],
       title: "Entrepreneur → Marketing Director",
       start: "2013",
-      end: "2022 · 9 years",
+      end: "2023",
       description: "• Led the marketing team to collaborate with sales teams across 4 physical stores, crafting impactful campaigns and sales initiatives for brand collections.\n • Sales growth strategies integrating physical stores, e-commerce, and consumers.\n• Development of the brand's first E-commerce on the Woocommerce platform.\n • Integration of physical stores ERP and synchronization of Inventory / Products / Orders. \n• Monitoring and creating CRM-integrated flows for the commercial team.\n• Inbound Marketing, SEO and definition of new strategies for acquiring B2C Leads.",
     },
     {
@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Digital Marketing Manager",
       start: "2011",
-      end: "2013 · 2 years 8 months",
+      end: "2013",
       description: "• Planning, development and implementation of all online and offline communication strategies.\n• Development of new products and projects.\n• Attracting new partners and sponsors.\n • Event production (planning and execution).",
     },
     {
@@ -94,7 +94,7 @@ export const RESUME_DATA = {
       badges: ["Intern"],
       title: "International Student Exchange Coordinator",
       start: "2008",
-      end: "2009 1 year 3 months",
+      end: "2009",
       description: "• I was involved in the project to develop the English version of the university website. \n • Assist foreign students in the program during their stay in Rio de Janeiro.",
     },
   ],
