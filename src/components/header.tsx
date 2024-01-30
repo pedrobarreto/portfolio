@@ -10,6 +10,7 @@ const sections = [
   { key: 'education', label: 'Education' },
   { key: 'skills', label: 'Skills' },
   { key: 'projects', label: 'Projects' },
+  {key: 'articles', label: 'Articles' },
 ];
 
 type HeaderButtonProps = {
