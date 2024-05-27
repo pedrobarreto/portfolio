@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Rio de Janeiro, Brazil",
   locationLink: "Link da Localização",
   about: "Passionate about technology, I believe in innovation's power to bring ideas to life.",
-  summary: "For 9 years, I worked in fashion retail as Marketing Director at Pathisa, a pioneering brand in the Haute Couture market. Prioritizing a collaborative team approach,  we developed marketing campaigns that enhanced synergy between our customers, physical stores, and e-commerce platforms, aiming for an omnichannel experience. Embracing a lifelong learner mindset, in 2020, I decided to deepen my technology knowledge by becoming a Full Stack Developer at Trybe. \n This experience paved the way for me to join the Alloha Group, where I actively contributed to numerous microservices in Java with Spring Boot. Recent notable projects include my role as a tech lead at Alloha Fibra, where I led initiatives in API standardization and React Native app development.",
+  summary: "I am the Founder and CEO of Aumor Perfeito, a startup dedicated to making a positive impact by facilitating pet adoption and reducing the number of stray animals. Through Aumor Perfeito, we connect potential adopters with responsible NGOs, creating a community where every pet can find a loving home. \n For 9 years, I worked in fashion retail as Marketing Director at Pathisa, a pioneering brand in the Haute Couture market. Prioritizing a collaborative team approach,  we developed marketing campaigns that enhanced synergy between our customers, physical stores, and e-commerce platforms, aiming for an omnichannel experience. Embracing a lifelong learner mindset, in 2020, I decided to deepen my technology knowledge by becoming a Full Stack Developer at Trybe. \n This experience paved the way for me to join the Alloha Group, where I actively contributed to numerous microservices in Java with Spring Boot. Recent notable projects include my role as a tech lead at Alloha Fibra, where I led initiatives in API standardization and React Native app development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8386806?v=4",
   personalWebsiteUrl: "URL do Website Pessoal",
   contact: {
@@ -60,6 +60,15 @@ export const RESUME_DATA = {
  
   ],
   work: [
+    {
+      company: "Aumor Perfeito",
+      link: "https://www.aumorperfeito.com.br/",
+      badges: ["Founder", "CEO"],
+      start: "2024",
+      end: "Present",
+      description: 
+      `• Founded and currently leading Aumor Perfeito, a startup dedicated to facilitating pet adoption and reducing the number of stray animals.\n • Developed a platform connecting potential adopters with responsible NGOs, creating a community where every pet can find a loving home.\n • Successfully onboarded over 20 NGOs in Brazil and 10 in Portugal within the first 10 days of launch.\n • Part of the AWS Startups program, leveraging cloud technologies for scalable solutions.\n • Spearheading marketing and growth strategies to expand the platform's reach and impact.\n • Continuously innovating and implementing new features based on user feedback and market needs.`
+    },
     {
       company: "Alloha Fibra",
       link: "https://alloha.com/",
@@ -99,6 +108,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "React Native",
     "Java",
     "MySQL",
     "API REST",
