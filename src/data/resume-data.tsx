@@ -64,6 +64,7 @@ export const RESUME_DATA = {
       company: "Aumor Perfeito",
       link: "https://www.aumorperfeito.com.br/",
       badges: ["Founder", "CEO"],
+      title: "Founder",
       start: "2024",
       end: "Present",
       description: 
