@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { InstagramIcon, YoutubeIcon } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Pedro Barreto",
@@ -30,7 +31,6 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "URL do Website Pessoal",
   contact: {
     email: "pedrobarreto@live.com",
-    tel: "+55 (21) 99459-3816",
     social: [
       {
         name: "GitHub",
@@ -41,6 +41,16 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/barreto-pedro/?locale=en_US",
         icon: LinkedInIcon,
+      },
+      {
+        name: "Instagram",
+        url: "https://instagram.com/pedrob",
+        icon: InstagramIcon,
+      },
+      {
+        name: "Youtube",
+        url: "https://www.youtube.com/@papoeideias",  
+        icon: YoutubeIcon,
       },
     ],
   },
