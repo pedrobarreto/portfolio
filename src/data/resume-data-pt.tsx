@@ -25,8 +25,8 @@ export const RESUME_DATA_PT = {
   initials: "PB",
   location: "Rio de Janeiro, Brasil",
   locationLink: "Link da Localização",
-  about: "Apaixonado por tecnologia, acredito no poder da inovação para trazer ideias à vida.",
-  summary: "Sou o Fundador e CEO da Aumor Perfeito, uma startup dedicada a causar um impacto positivo ao facilitar a adoção de animais de estimação e reduzir o número de animais de rua. Através da Aumor Perfeito, conectamos potenciais adotantes com ONGs responsáveis, criando uma comunidade onde cada animal de estimação pode encontrar um lar amoroso. \n Durante 9 anos, trabalhei no varejo de moda como Diretor de Marketing na Pathisa, uma marca pioneira no mercado de alta costura. Priorizando uma abordagem colaborativa em equipe, desenvolvemos campanhas de marketing que aumentaram a sinergia entre nossos clientes, lojas físicas e plataformas de e-commerce, visando uma experiência omnichannel. Adotando uma mentalidade de aprendizado contínuo, em 2020 decidi aprofundar meu conhecimento em tecnologia, tornando-me Desenvolvedor Full Stack na Trybe. \n Essa experiência abriu caminho para eu ingressar no Grupo Alloha, onde contribui ativamente para numerosos microsserviços em Java com Spring Boot. Projetos recentes notáveis incluem meu papel como líder técnico na Alloha Fibra, onde liderei iniciativas de padronização de APIs e desenvolvimento de aplicativos em React Native.",
+  about: "Desenvolvedor Full Stack com visão estratégica e expertise em marketing digital.",
+  summary: "Sou o fundador do app Aumor Perfeito, desenvolvido em React Native para conectar pessoas interessadas em adotar animais a ONGs responsáveis. Também sou cofundador do canal no YouTube 'Papo e Ideias', onde discutimos tecnologia e negócios. Com mais de 10 anos de experiência em marketing digital, desenvolvi e integrei estratégias omnichannel que unem lojas físicas, plataformas de e-commerce e consumidores. Como desenvolvedor, acumulo mais de 4 anos de experiência em aplicações backend, utilizando tecnologias como Java com SpringBoot e Node.js, além de experiência significativa no frontend com React.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8386806?v=4",
   personalWebsiteUrl: "URL do Website Pessoal",
   contact: {
@@ -73,22 +73,37 @@ export const RESUME_DATA_PT = {
     {
       company: "Aumor Perfeito",
       link: "https://www.aumorperfeito.com.br/",
-      badges: ["Fundador", "CEO"],
+      badges: ["Fundador"],
       title: "Fundador",
       start: "2024",
-      end: "Presente",
+      end: "O momento",
       description: 
-      `• Fundou e atualmente lidera a Aumor Perfeito, uma startup dedicada a facilitar a adoção de animais de estimação e reduzir o número de animais de rua.\n • Desenvolveu uma plataforma que conecta potenciais adotantes com ONGs responsáveis, criando uma comunidade onde cada animal de estimação pode encontrar um lar amoroso.\n • Conseguiu integrar mais de 20 ONGs no Brasil e 10 em Portugal nos primeiros 10 dias de lançamento.\n • Parte do programa AWS Startups, aproveitando tecnologias de nuvem para soluções escaláveis.\n • Liderando estratégias de marketing e crescimento para expandir o alcance e impacto da plataforma.\n • Inovando continuamente e implementando novos recursos com base no feedback dos usuários e nas necessidades do mercado.`
+        `• Criei um aplicativo em React Native dedicado a facilitar a adoção de animais de rua, conectando pessoas interessadas em adotar com ONGs responsáveis.\n • Já estamos monitorando mais de 20 ONGs no Brasil e 10 em Portugal.\n • Aprovado no programa AWS Startups`
+    },
+    {
+      company: "Papo e Ideias Podcast",
+      link: "https://www.youtube.com/@papoeideias",
+      badges: ["Cofundador"],
+      title: "Youtube Host",
+      start: "2024",
+      end: "o momento",
+      description:
+        "Discussões semanais sobre tecnologia no canal do YouTube 'Papo e Ideias':\n\n" +
+        "• 1000 inscritos em apenas 15 dias.\n" +
+        "• Desenvolvimento de estratégias de engajamento e crescimento, resultando em um aumento de 300% nas visualizações.\n"
     },
     {
       company: "Alloha Fibra",
       link: "https://alloha.com/",
       badges: ["Remoto"],
-      title: "Desenvolvedor Java Líder → Desenvolvedor Full Stack",
+      title: "Tech Lead → Desenvolvedor Java",
       start: "2022",
       end: "2024",
       description: 
-      `• Como líder técnico, desempenhou um papel fundamental na padronização de APIs no Grupo Alloha, desenvolvendo um proxy de API para comunicação contínua com o provedor de chatbot Five9.\n • Contribuiu significativamente para a integração de um novo aplicativo móvel white-label para todas as 9 marcas do grupo Alloha Fibra.\n • Desempenhou um papel crucial em discussões estratégicas para o E-commerce B2C, liderando o projeto "Indique um Amigo", resultando em um aumento de 15% nas vendas.\n • Iniciou e supervisionou o processo de documentação de APIs para integração contínua e sinergia de parcerias.\n • Contribuiu para o desenvolvimento frontend usando Vue.js, melhorando as experiências do usuário e funcionalidades da interface.\n • Desenvolveu e manteve novas funcionalidades em APIs REST usando Java com Spring para soluções robustas de backend.`
+      `• Atuação no desenvolvimento de uma API Proxy em Java para padronização dos dados e integração com o provedor de chatbot Five9.\n
+      • Tech Lead do aplicativo white-label em React Native, unificando 4 marcas e otimizando custos de manutenção.\n
+      • Criei um serviço para geração de cupons de "Indique um Amigo" no E-commerce B2C, resultando em um aumento de vendas de 15%.\n
+      • Participei do desenvolvimento e implementação de novas funcionalidades em APIs REST usando Java com Spring para soluções robustas de backend.`
     },
     {
       company: "Pathisa",
@@ -97,7 +112,7 @@ export const RESUME_DATA_PT = {
       title: "Diretor de Marketing → Gerente de Marketing Digital",
       start: "2013",
       end: "2023",
-      description: "• Liderou a equipe de marketing para colaborar com equipes de vendas em 4 lojas físicas, criando campanhas e iniciativas de vendas impactantes para as coleções da marca.\n • Estratégias de crescimento de vendas integrando lojas físicas, e-commerce e consumidores.\n• Desenvolvimento do primeiro E-commerce da marca na plataforma Woocommerce.\n • Integração do ERP das lojas físicas e sincronização de Inventário / Produtos / Pedidos. \n• Monitoramento e criação de fluxos integrados ao CRM para a equipe comercial.\n• Inbound Marketing, SEO e definição de novas estratégias para aquisição de Leads B2C.",
+      description: "• Estratégias de crescimento de vendas integrando lojas físicas, e-commerce e consumidores.\n• Desenvolvimento do primeiro E-commerce da marca na plataforma Woocommerce.\n • Integração do ERP das lojas físicas e sincronização de Inventário / Produtos / Pedidos. \n• Monitoramento e criação de fluxos integrados ao CRM para a equipe comercial.\n• Inbound Marketing, SEO e definição de novas estratégias para aquisição de Leads B2C.",
     },
     {
       company: "Enter10!",
@@ -106,7 +121,7 @@ export const RESUME_DATA_PT = {
       title: "Gerente de Marketing Digital",
       start: "2011",
       end: "2013",
-      description: "• Planejamento, desenvolvimento e implementação de todas as estratégias de comunicação online e offline.\n• Desenvolvimento de novos produtos e projetos.\n• Atração de novos parceiros e patrocinadores.\n • Produção de eventos (planejamento e execução).",
+      description: "• Planejamento, desenvolvimento e implementação de todas as estratégias de comunicação online e offline.\n• Atração de novos parceiros e patrocinadores.\n • Produção de eventos (planejamento e execução).",
     },
     {
       company: "PUC-Rio",

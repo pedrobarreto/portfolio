@@ -25,8 +25,8 @@ export const RESUME_DATA = {
   initials: "PB",
   location: "Rio de Janeiro, Brazil",
   locationLink: "Link da Localização",
-  about: "Passionate about technology, I believe in innovation's power to bring ideas to life.",
-  summary: "I am the Founder and CEO of Aumor Perfeito, a startup dedicated to making a positive impact by facilitating pet adoption and reducing the number of stray animals. Through Aumor Perfeito, we connect potential adopters with responsible NGOs, creating a community where every pet can find a loving home. \n For 9 years, I worked in fashion retail as Marketing Director at Pathisa, a pioneering brand in the Haute Couture market. Prioritizing a collaborative team approach,  we developed marketing campaigns that enhanced synergy between our customers, physical stores, and e-commerce platforms, aiming for an omnichannel experience. Embracing a lifelong learner mindset, in 2020, I decided to deepen my technology knowledge by becoming a Full Stack Developer at Trybe. \n This experience paved the way for me to join the Alloha Group, where I actively contributed to numerous microservices in Java with Spring Boot. Recent notable projects include my role as a tech lead at Alloha Fibra, where I led initiatives in API standardization and React Native app development.",
+  about: "Full Stack Developer with a strategic mindset and a strong background in digital marketing.",
+  summary: "Founder of the Aumor Perfeito app in React Native, connecting adopters with responsible NGOs to reduce stray animals. Co-founder of the 'Papo e Ideias' YouTube channel, focused on technology and business discussions. With over 10 years in digital marketing, implemented omnichannel strategies integrating physical stores, e-commerce, and consumer engagement. Experienced with backend Java using SpringBoot for over 4 years, including leadership in creating a React Native white label app at Brazil's 4th largest telecom company.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8386806?v=4",
   personalWebsiteUrl: "URL do Website Pessoal",
   contact: {
@@ -73,22 +73,39 @@ export const RESUME_DATA = {
     {
       company: "Aumor Perfeito",
       link: "https://www.aumorperfeito.com.br/",
-      badges: ["Founder", "CEO"],
+      badges: ["Founder"],
       title: "Founder",
       start: "2024",
       end: "Present",
       description: 
-      `• Founded and currently leading Aumor Perfeito, a startup dedicated to facilitating pet adoption and reducing the number of stray animals.\n • Developed a platform connecting potential adopters with responsible NGOs, creating a community where every pet can find a loving home.\n • Successfully onboarded over 20 NGOs in Brazil and 10 in Portugal within the first 10 days of launch.\n • Part of the AWS Startups program, leveraging cloud technologies for scalable solutions.\n • Spearheading marketing and growth strategies to expand the platform's reach and impact.\n • Continuously innovating and implementing new features based on user feedback and market needs.`
+        `• Developed a React Native app connecting pet adopters with responsible NGOs.\n • Successfully onboarded over 30 NGOs across Brazil and Portugal shortly after launch.\n • Approved participant in the AWS Startups program.`
+    },
+    {
+      company: "Papo e Ideias Podcast",
+      link: "https://www.youtube.com/@papoeideias",
+      badges: ["Cofounder"],
+      title: "Youtube Channel Host",
+      start: "2024",
+      end: "Present",
+      description:
+        "Hosts weekly tech news discussions on the YouTube channel 'Papo e Ideias':\n\n" +
+        "• Reached 1000 subscribers in just 15 days.\n" +
+        "• Developed engagement and growth strategies, resulting in a 300% increase in views.\n" +
+        "• Collaborated with key partners to expand the brand and reach a diverse audience.\n"
     },
     {
       company: "Alloha Fibra",
       link: "https://alloha.com/",
       badges: ["Remote"],
-      title: "Lead Java Developer → Full Stack Developer",
+      title: "Tech Lead → Java Developer",
       start: "2022",
       end: "2024",
       description: 
-      `• As the technical lead, played a key role in API standardization at Alloha Group, developing an API proxy for seamless communication with the Five9 chatbot provider.\n • Contributed significantly to integrating a new white-label mobile application for all 9 brands within the Alloha Fibra group.\n • Played a pivotal role in strategic discussions for B2C E-commerce, leading the "Refer a Friend" project resulting in a 15% sales increase.\n • Initiated and oversaw the API documentation process for seamless integration and partnership synergy.\n • Contributed to frontend development using Vue.js, enhancing user experiences and interface functionalities.\n • Developed and maintained new functionalities in Rest APIs using Java with Spring for robust backend solutions.`
+      `• Developed a Java API Proxy for data standardization and integration with the Five9 chatbot provider.\n
+      • Led the development of a new white-label mobile app, consolidating 4 brands and optimizing maintenance costs.\n
+      • Created a "Refer a Friend" coupon generation service for the B2C E-commerce, resulting in a 15% sales increase.\n
+      • Contributed to the development and implementation of new functionalities in REST APIs using Java with Spring for robust backend solutions.
+      `
     },
     {
       company: "Pathisa",
@@ -97,7 +114,7 @@ export const RESUME_DATA = {
       title: "Marketing Director → Digital Marketing Manager",
       start: "2013",
       end: "2023",
-      description: "• Led the marketing team to collaborate with sales teams across 4 physical stores, crafting impactful campaigns and sales initiatives for brand collections.\n • Sales growth strategies integrating physical stores, e-commerce, and consumers.\n• Development of the brand's first E-commerce on the Woocommerce platform.\n • Integration of physical stores ERP and synchronization of Inventory / Products / Orders. \n• Monitoring and creating CRM-integrated flows for the commercial team.\n• Inbound Marketing, SEO and definition of new strategies for acquiring B2C Leads.",
+      description: "• Sales growth strategies integrating physical stores, e-commerce, and consumers.\n• Development of the brand's first E-commerce on the Woocommerce platform.\n • Integration of physical stores ERP and synchronization of Inventory / Products / Orders. \n• Monitoring and creating CRM-integrated flows for the commercial team.\n• Inbound Marketing, SEO and definition of new strategies for acquiring B2C Leads.",
     },
     {
       company: "Enter10!",
@@ -106,7 +123,7 @@ export const RESUME_DATA = {
       title: "Digital Marketing Manager",
       start: "2011",
       end: "2013",
-      description: "• Planning, development and implementation of all online and offline communication strategies.\n• Development of new products and projects.\n• Attracting new partners and sponsors.\n • Event production (planning and execution).",
+      description: "• Planning, development and implementation of all online and offline communication strategies.\n• Attracting new partners and sponsors.\n • Event production (planning and execution).",
     },
     {
       company: "PUC-Rio",
