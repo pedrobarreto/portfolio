@@ -134,13 +134,14 @@ export const RESUME_DATA_PT = {
     },
   ],
   skills: [
-    "React Native",
+    "JavaScript",
+    "TypeScript",
     "Java",
-    "MySQL",
-    "API REST",
-    "Vue.js",
+    "React/Next.js/React Native",
+    "Node.js",
     "Spring Boot",
-    "Hibernate",
+    "AWS",
+    "Docker"
   ],
   projects: [
     {
