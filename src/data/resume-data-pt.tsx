@@ -78,7 +78,7 @@ export const RESUME_DATA_PT = {
       start: "2024",
       end: "O momento",
       description: 
-        `• Criei um aplicativo em React Native dedicado a facilitar a adoção de animais de rua, conectando pessoas interessadas em adotar com ONGs responsáveis.\n • Já estamos monitorando mais de 20 ONGs no Brasil e 10 em Portugal.\n • Aprovado no programa AWS Startups`
+        `• Criei um aplicativo em React Native dedicado a facilitar a adoção de animais de rua, conectando pessoas interessadas em adotar com ONGs responsáveis\n • Já estamos monitorando mais de 20 ONGs no Brasil e 10 em Portugal\n • Aprovado no programa AWS Startups`
     },
     {
       company: "Papo e Ideias Podcast",
@@ -89,8 +89,8 @@ export const RESUME_DATA_PT = {
       end: "o momento",
       description:
         "Discussões semanais sobre tecnologia no canal do YouTube 'Papo e Ideias':\n\n" +
-        "• 1000 inscritos em apenas 15 dias.\n" +
-        "• Desenvolvimento de estratégias de engajamento e crescimento, resultando em um aumento de 300% nas visualizações.\n"
+        "• 1000 inscritos em apenas 15 dias\n" +
+        "• Desenvolvimento de estratégias de engajamento e crescimento, resultando em um aumento de 300% nas visualizações\n"
     },
     {
       company: "Alloha Fibra",
@@ -101,9 +101,9 @@ export const RESUME_DATA_PT = {
       end: "2024",
       description: 
       `• Atuação no desenvolvimento de uma API Proxy em Java para padronização dos dados e integração com o provedor de chatbot Five9.\n
-      • Tech Lead do aplicativo white-label em React Native, unificando 4 marcas e otimizando custos de manutenção.\n
-      • Criei um serviço para geração de cupons de "Indique um Amigo" no E-commerce B2C, resultando em um aumento de vendas de 15%.\n
-      • Participei do desenvolvimento e implementação de novas funcionalidades em APIs REST usando Java com Spring para soluções robustas de backend.`
+      • Tech Lead do aplicativo white-label em React Native, unificando 4 marcas e otimizando custos de manutenção\n
+      • Criei um serviço para geração de cupons de "Indique um Amigo" no E-commerce B2C, resultando em um aumento de vendas de 15%\n
+      • Participei do desenvolvimento e implementação de novas funcionalidades em APIs REST usando Java com Spring para soluções robustas de backend`
     },
     {
       company: "Pathisa",
@@ -112,7 +112,7 @@ export const RESUME_DATA_PT = {
       title: "Diretor de Marketing → Gerente de Marketing Digital",
       start: "2013",
       end: "2023",
-      description: "• Estratégias de crescimento de vendas integrando lojas físicas, e-commerce e consumidores.\n• Desenvolvimento do primeiro E-commerce da marca na plataforma Woocommerce.\n • Integração do ERP das lojas físicas e sincronização de Inventário / Produtos / Pedidos. \n• Monitoramento e criação de fluxos integrados ao CRM para a equipe comercial.\n• Inbound Marketing, SEO e definição de novas estratégias para aquisição de Leads B2C.",
+      description: "• Estratégias de crescimento de vendas integrando lojas físicas, e-commerce e consumidores\n• Desenvolvimento do primeiro E-commerce da marca na plataforma Woocommerce\n • Integração do ERP das lojas físicas e sincronização de Inventário / Produtos / Pedidos. \n• Monitoramento e criação de fluxos integrados ao CRM para a equipe comercial\n• Inbound Marketing, SEO e definição de novas estratégias para aquisição de Leads B2C",
     },
     {
       company: "Enter10!",
@@ -121,7 +121,7 @@ export const RESUME_DATA_PT = {
       title: "Gerente de Marketing Digital",
       start: "2011",
       end: "2013",
-      description: "• Planejamento, desenvolvimento e implementação de todas as estratégias de comunicação online e offline.\n• Atração de novos parceiros e patrocinadores.\n • Produção de eventos (planejamento e execução).",
+      description: "• Planejamento, desenvolvimento e implementação de todas as estratégias de comunicação online e offline\n• Atração de novos parceiros e patrocinadores\n • Produção de eventos (planejamento e execução)",
     },
     {
       company: "PUC-Rio",
@@ -130,7 +130,7 @@ export const RESUME_DATA_PT = {
       title: "Coordenação de Intercâmbio de Estudantes Internacionais",
       start: "2008",
       end: "2009",
-      description: "• Participei do projeto de desenvolvimento da versão em inglês do site da universidade. \n • Auxiliei os estudantes estrangeiros no programa durante sua estadia no Rio de Janeiro.",
+      description: "• Participei do projeto de desenvolvimento da versão em inglês do site da universidade. \n • Auxiliei os estudantes estrangeiros no programa durante sua estadia no Rio de Janeiro",
     },
   ],
   skills: [

@@ -78,7 +78,7 @@ export const RESUME_DATA = {
       start: "2024",
       end: "Present",
       description: 
-        `• Developed a React Native app connecting pet adopters with responsible NGOs.\n • Successfully onboarded over 30 NGOs across Brazil and Portugal shortly after launch.\n • Approved participant in the AWS Startups program.`
+        `• Developed a React Native app connecting pet adopters with responsible NGOs\n • Successfully onboarded over 30 NGOs across Brazil and Portugal shortly after launch\n • Approved participant in the AWS Startups program`
     },
     {
       company: "Papo e Ideias Podcast",
@@ -89,9 +89,9 @@ export const RESUME_DATA = {
       end: "Present",
       description:
         "Hosts weekly tech news discussions on the YouTube channel 'Papo e Ideias':\n\n" +
-        "• Reached 1000 subscribers in just 15 days.\n" +
-        "• Developed engagement and growth strategies, resulting in a 300% increase in views.\n" +
-        "• Collaborated with key partners to expand the brand and reach a diverse audience.\n"
+        "• Reached 1000 subscribers in just 15 days\n" +
+        "• Developed engagement and growth strategies, resulting in a 300% increase in views\n" +
+        "• Collaborated with key partners to expand the brand and reach a diverse audience\n"
     },
     {
       company: "Alloha Fibra",
@@ -101,10 +101,10 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2024",
       description: 
-      `• Developed a Java API Proxy for data standardization and integration with the Five9 chatbot provider.\n
-      • Led the development of a new white-label mobile app, consolidating 4 brands and optimizing maintenance costs.\n
-      • Created a "Refer a Friend" coupon generation service for the B2C E-commerce, resulting in a 15% sales increase.\n
-      • Contributed to the development and implementation of new functionalities in REST APIs using Java with Spring for robust backend solutions.
+      `• Developed a Java API Proxy for data standardization and integration with the Five9 chatbot provider\n
+      • Led the development of a new white-label mobile app, consolidating 4 brands and optimizing maintenance costs\n
+      • Created a "Refer a Friend" coupon generation service for the B2C E-commerce, resulting in a 15% sales increase\n
+      • Contributed to the development and implementation of new functionalities in REST APIs using Java with Spring for robust backend solutions
       `
     },
     {
@@ -114,7 +114,7 @@ export const RESUME_DATA = {
       title: "Marketing Director → Digital Marketing Manager",
       start: "2013",
       end: "2023",
-      description: "• Sales growth strategies integrating physical stores, e-commerce, and consumers.\n• Development of the brand's first E-commerce on the Woocommerce platform.\n • Integration of physical stores ERP and synchronization of Inventory / Products / Orders. \n• Monitoring and creating CRM-integrated flows for the commercial team.\n• Inbound Marketing, SEO and definition of new strategies for acquiring B2C Leads.",
+      description: "• Sales growth strategies integrating physical stores, e-commerce, and consumers.\n• Development of the brand's first E-commerce on the Woocommerce platform.\n • Integration of physical stores ERP and synchronization of Inventory / Products / Orders \n• Monitoring and creating CRM-integrated flows for the commercial team\n• Inbound Marketing, SEO and definition of new strategies for acquiring B2C Leads",
     },
     {
       company: "Enter10!",
@@ -123,7 +123,7 @@ export const RESUME_DATA = {
       title: "Digital Marketing Manager",
       start: "2011",
       end: "2013",
-      description: "• Planning, development and implementation of all online and offline communication strategies.\n• Attracting new partners and sponsors.\n • Event production (planning and execution).",
+      description: "• Planning, development and implementation of all online and offline communication strategies\n• Attracting new partners and sponsors\n • Event production (planning and execution)",
     },
     {
       company: "PUC-Rio",
@@ -132,7 +132,7 @@ export const RESUME_DATA = {
       title: "International Student Exchange Coordinator",
       start: "2008",
       end: "2009",
-      description: "• I was involved in the project to develop the English version of the university website. \n • Assist foreign students in the program during their stay in Rio de Janeiro.",
+      description: "• I was involved in the project to develop the English version of the university website \n • Assist foreign students in the program during their stay in Rio de Janeiro",
     },
   ],
   skills: [
