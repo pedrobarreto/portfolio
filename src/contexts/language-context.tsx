@@ -18,10 +18,15 @@ export const useLanguage = () => {
 };
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>(() => {
-    const userLanguage = navigator.language.split('-')[0];
-    return userLanguage === 'en' ? 'en' : 'pt';
-  });
+  const [language, setLanguage] = useState<Language>('en');
+
+  useEffect(() => {
+
+    if (typeof window !== 'undefined') {
+      const userLanguage = navigator.language.split('-')[0];
+      setLanguage(userLanguage === 'en' ? 'en' : 'pt');
+    }
+  }, []);
 
   const toggleLanguage = () => {
     setLanguage((prevLanguage) => (prevLanguage === 'en' ? 'pt' : 'en'));
