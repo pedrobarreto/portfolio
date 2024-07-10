@@ -13,6 +13,20 @@ export const metadata: Metadata = {
   icons: {
     icon: '/icon.png',
   },
+  openGraph: {
+    type: 'website',
+    url: 'https://pedrobarreto.me',
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+    description: RESUME_DATA.summary,
+    images: [
+      {
+        url: '/opengraph.jpg',
+        width: 1200,  
+        height: 675,
+        alt: 'Banner do Portfolio',
+      },
+    ],
+  },
 };
 
 const roboto = Roboto({
@@ -27,10 +41,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-   
-    <html lang="en" className={roboto.className}>    
+    <html lang="en" className={roboto.className}>
       <Providers>
-        {children} 
+        {children}
       </Providers>
       <Analytics />
     </html>
