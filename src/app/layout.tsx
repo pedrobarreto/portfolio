@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: RESUME_DATA.summary,
     images: [
       {
-        url: '/opengraph.jpg',
+        url: 'https://raw.githubusercontent.com/pedrobarreto/portfolio/main/public/opengraph.jpg',
         width: 1200,  
         height: 675,
         alt: 'Banner do Portfolio',
